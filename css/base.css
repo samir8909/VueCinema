@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: var(--CR);
+    background: var(--bg);
+    color: white;
+}
+
+:root{
+    --bg: #040D1F;
+    --CR:'CR',sans-serif;
+    --MR:'MR',sans-serif;
+    --MB:'MB',sans-serif;
+    --CB:'CB',sans-serif;
+    --RM:'RM',sans-serif;
+    --white:#fff;
+    --orange: #ED8E00;
+    --light:#ED8E00;
+}
+
+
+
