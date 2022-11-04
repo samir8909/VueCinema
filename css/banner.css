@@ -1,0 +1,112 @@
+.banner{
+    background: url(../img/bg.png) no-repeat center right/cover;
+    height: 80vh;
+    position: relative;
+    z-index: 1;
+}
+
+
+.banner__bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #070F19BF;
+    z-index: -1;
+}
+
+.banner__wrap{
+    display: flex;
+    align-items: center;
+}
+
+
+.banner__desc{
+    max-width: 600px;
+    width: 100%;
+}
+
+.banner__h{
+    color: white;
+    font-family: var(--MB);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+
+.banner__p{
+    font-family: var(--MR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-bottom: 50px;
+    color: #C8C8C8;
+}
+
+
+.banner__btn{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.btn{
+    padding: 17px 47px;
+    font-family: var(--RM);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    background: #F18128;
+    border-radius: 4px;
+    color: white;
+    background: var(--bg);
+    display: inline-block;/* display: inline-block; блочный элемент*/
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: var(--orange);
+    color: var(--black);
+}
+
+@media screen and (max-width:640px) {
+    .banner__h{
+        font-size: 44px;
+    }
+
+   
+}
+
+
+@media screen and (max-width:460px) {
+    .banner__h{
+        font-size: 33px;
+    }
+
+    .banner__p{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:420px) {
+   .banner__btn{
+    flex-direction: column;
+    gap: 30px;
+   }
+}
+
+@media screen and (max-width:360px) {
+   .banner__h{
+    font-size: 28px;
+   }
+
+
+ }

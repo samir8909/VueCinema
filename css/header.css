@@ -23,11 +23,20 @@
     width: 166px;
 }
 
+.header{
+    position: relative;
+    z-index: 10;
+}
+
 /* nav  ,nav__wrap */
 .nav{
     background: #010305CC;
     backdrop-filter: blur(7.5px);
     padding: 29px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 
